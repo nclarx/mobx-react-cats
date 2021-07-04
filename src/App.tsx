@@ -35,9 +35,9 @@ const App: FunctionComponent = () => {
         }, []
     )
 
+    useEffect(() => console.log('Rerendered'))
 
     return (
-
         <section style={{margin: '1rem'}}>
             {
                 rootStore ? (
